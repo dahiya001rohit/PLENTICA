@@ -5,7 +5,7 @@ import RightDashBoard from './Dashboard/RightDashBoard'
 
 const DashBoard = () => {
   return (
-    <div className='w-full h-screen bg-[#F0ECE3] mt-22 mb-8 flex gap-6 justify-center '>
+    <div className='w-full h-screen bg-[#F0ECE3] mt-20 mb-8 flex gap-6 justify-center '>
         <LeftDashboard />
         <MiddleDashBoard />
         <RightDashBoard />
