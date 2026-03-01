@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const LeftDashboard = ({ city, state, country, landSize, setCity, setState, setCountry, setLandSize, handleGeneratePlan, isValid }) => {
+const LeftDashboard = ({ city, state, country, landSize, setCity, setState, setCountry, setLandSize, handleGeneratePlan, isValid, loading }) => {
   const handleReset = () => {
     setCity('')
     setState('')
@@ -76,15 +76,25 @@ const LeftDashboard = ({ city, state, country, landSize, setCity, setState, setC
       {/* Buttons */}
       <div className='flex flex-col gap-3 mt-auto pt-4'>
         <button
-          disabled={!isValid}
+          disabled={!isValid || loading}
           className={`w-full py-3 font-semibold rounded-xl flex items-center justify-center gap-2 transition cursor-pointer
-            ${isValid
+            ${isValid && !loading
               ? 'bg-green-500 hover:bg-green-600 text-white'
               : 'bg-gray-200 text-gray-400 cursor-not-allowed'
             }`}
           onClick={handleGeneratePlan}
         >
-          <span>✦</span> Generate Plan
+          {loading ? (
+            <>
+              <svg className='animate-spin h-5 w-5 text-gray-500' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'>
+                <circle className='opacity-25' cx='12' cy='12' r='10' stroke='currentColor' strokeWidth='4'></circle>
+                <path className='opacity-75' fill='currentColor' d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z'></path>
+              </svg>
+              Generating...
+            </>
+          ) : (
+            <><span>✦</span> Generate Plan</>
+          )}
         </button>
         <button
           onClick={handleReset}

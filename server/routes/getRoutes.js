@@ -27,8 +27,9 @@ router.post('/farm-plan', auth, async (req, res) => {
 
         res.json({ ...data, planId: farmPlan._id });
     } catch (error) {
-        console.error('Error fetching location farm plan:', error);
-        res.status(500).json({ error: 'Failed to fetch location farm plan' });
+        console.error('Error fetching location farm plan:', error.message);
+        console.error('Stack:', error.stack);
+        res.status(500).json({ error: 'Failed to fetch location farm plan', details: error.message });
     }
 });
 

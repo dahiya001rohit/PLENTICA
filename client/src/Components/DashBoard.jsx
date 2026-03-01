@@ -11,13 +11,15 @@ const DashBoard = () => {
     const [country, setCountry] = useState('')
     const [landSize, setLandSize] = useState('')
     const [data, setData] = useState(null)
+    const [loading, setLoading] = useState(false)
 
     const isValid = city.trim() && state.trim() && country.trim() && landSize.trim()
     
       const handleGeneratePlan = async(e) => {
         e.preventDefault()
         
-        if (!isValid) return
+        if (!isValid || loading) return
+        setLoading(true)
         let formData = {
           location: `${city}, ${state}, ${country}`,
           landSize: landSize
@@ -30,11 +32,15 @@ const DashBoard = () => {
             setData(response.data)
         } catch(error){
           console.error('Error generating plan:', error)
+          console.error('Response data:', error.response?.data)
+          alert(error.response?.data?.details || error.response?.data?.error || error.message)
+        } finally {
+          setLoading(false)
         }
       }
   return (
     <div className='w-full h-screen bg-gray-600 mt-20 mb-8 flex gap-6 justify-center px-6'>
-        <LeftDashboard city={city} state={state} country={country} landSize={landSize} setCity={setCity} setState={setState} setCountry={setCountry} setLandSize={setLandSize} handleGeneratePlan={handleGeneratePlan} isValid={isValid}/>
+        <LeftDashboard city={city} state={state} country={country} landSize={landSize} setCity={setCity} setState={setState} setCountry={setCountry} setLandSize={setLandSize} handleGeneratePlan={handleGeneratePlan} isValid={isValid} loading={loading}/>
         <MiddleDashBoard data={data} landSize={landSize}/>
         <RightDashBoard data={data}/>
     </div>
