@@ -87,7 +87,7 @@ Visualization: Chart.js
 Backend:Express.js,python
 Data: MongoDB
 
-9. Module-wise Development & Deliverables
+10. Module-wise Development & Deliverables
 Checkpoint 1: Research & Planning
 Deliverables:
 Problem understanding
@@ -124,7 +124,7 @@ Application hosting
 Final testing
 Demo readiness
 
-10. End-to-End Workflow
+11. End-to-End Workflow
 User enters farm parameters
 System calculates effective water
 Filters unsuitable crops
@@ -132,14 +132,6 @@ Calculates crop scores
 Allocates land using optimization logic
 Generates results
 Displays dashboard and recommendations
-
-11. Demo & Video
-
-PPT Link:
-Demo Video Link: 
-GitHub Repository: https://github.com/dahiya001rohit/PLENTICA
-Demo-user:rohit@mail.com
-Password:Ron@2006
 
 12. Hackathon Deliverables Summary
 Functional prototype
