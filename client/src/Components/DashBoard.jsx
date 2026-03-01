@@ -33,7 +33,7 @@ const DashBoard = () => {
         }
       }
   return (
-    <div className='w-full h-screen bg-[#F0ECE3] mt-20 mb-8 flex gap-6 justify-center '>
+    <div className='w-full h-screen bg-gray-600 mt-20 mb-8 flex gap-6 justify-center px-6'>
         <LeftDashboard city={city} state={state} country={country} landSize={landSize} setCity={setCity} setState={setState} setCountry={setCountry} setLandSize={setLandSize} handleGeneratePlan={handleGeneratePlan} isValid={isValid}/>
         <MiddleDashBoard data={data} landSize={landSize}/>
         <RightDashBoard data={data}/>
