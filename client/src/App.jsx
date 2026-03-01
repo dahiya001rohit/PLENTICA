@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './Components/navbar'
+import Navbar from './Components/Navbar'
 import DashBoard from './Components/DashBoard'
 import LandingPage from './Components/LandingPage'
 import Login from './Components/Login'
