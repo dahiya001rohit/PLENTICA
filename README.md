@@ -116,7 +116,7 @@ Application hosting
 Final testing
 Demo readiness
 
-11. End-to-End Workflow
+10. End-to-End Workflow
 User enters farm parameters
 System calculates effective water
 Filters unsuitable crops
@@ -125,13 +125,13 @@ Allocates land using optimization logic
 Generates results
 Displays dashboard and recommendations
 
-12. Demo & Video
+11. Demo & Video
 
 Live Demo Link: 
 Demo Video Link: 
 GitHub Repository: 
 
-13. Hackathon Deliverables Summary
+12. Hackathon Deliverables Summary
 Functional prototype
 Interactive dashboard
 Optimization algorithm
@@ -144,7 +144,7 @@ Simulation feature
 | Satyashri Mali | Ideation & Presentation | Idea development, project structuring, presentation      |
 | Raunit Singh   | Backend Developer       | API development, data handling, logic implementation     |
 
-15. Future Scope & Scalability
+13. Future Scope & Scalability
 
 *Short-Term
 Improve user interface and experience
@@ -158,12 +158,12 @@ Mobile application development
 IoT sensor integration
 Market price prediction
 
-17. Known Limitations
+14. Known Limitations
 Uses simplified dataset
 No real-time data integration
 Limited crop variety
 Basic optimization model
 
-18. Impact
+15. Impact
 Plentica enables data-driven agricultural decision-making by optimizing resource usage and reducing wastage. It helps farmers improve productivity, increase profitability, and make informed decisions. The system promotes sustainable farming practices by efficiently managing land, water, and other resources.
 
