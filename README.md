@@ -1,6 +1,13 @@
 # PLENTICA
 Smart Farm Resource Optimization System for Data-Driven Agriculture
-1. Problem Statement
+1. Demo & Video
+PPT Link:https://www.canva.com/design/DAHCrvQvdPc/_Na8ZuH9FHujv-bf2Us88Q/edit?utm_content=DAHCrvQvdPc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Demo Video Link: 
+GitHub Repository: https://github.com/dahiya001rohit/PLENTICA
+Demo-user:rohit@mail.com
+Password:Ron@2006
+
+2. Problem Statement
 ~Farm Resource Allocation and Optimization
 ~Problem Description
   Farmers currently use experience and intuition to make decisions regarding farm resource allocation. However, farm resource allocation is a complex problem that includes multiple interdependent factors like land size, availability of water, soil types, weather, and market demands. Farmers currently do not use any decision-making tools to make farm resource allocation decisions. As a result, farm resources are being allocated inefficiently, causing lower yields, increasing costs, and reducing profitability.
@@ -20,6 +27,7 @@ Smart Farm Resource Optimization System for Data-Driven Agriculture
 ~Decisions are made based on experience
 ~Balancing multiple variables is challenging
 ~No available decision-making tools
+
 4.Solution Strategy
 ~Plentica will use a hybrid approach that includes constraint filtering, multiple-factor scoring, and greedy optimization. This will ensure that land, water, and other farm resources are allocated efficiently and maximum profit is achieved.
 
@@ -37,7 +45,7 @@ Key Features
 6] Interactive Dashboard
 7]What if simulation 
 
-5. System Architecture
+6. System Architecture
 High-Level Flow
 User → Frontend → Processing Logic → Dataset → Output → Dashboard
 Architecture Description
@@ -49,13 +57,13 @@ The dashboard is used for visualization.
 Architecture Diagram
 (Add diagram here)
 
-6. Database Design
+7. Database Design
 ER Diagram
 
 ER Diagram Description
 The application would use a structured dataset with crop details such as the water requirement, soil type, climate type, and profit.
 
-7. Model Selected
+8. Model Selected
 *Model Name
 Rule-Based + Greedy Optimization
 
@@ -73,7 +81,7 @@ Rule-Based + Greedy Optimization
 ~Profit maximization
 ~Suitability score
 
-8. Technology Stack
+9. Technology Stack
 Frontend: React.js, Tailwind CSS
 Visualization: Chart.js 
 Backend:Express.js,python
@@ -127,9 +135,11 @@ Displays dashboard and recommendations
 
 11. Demo & Video
 
-Live Demo Link: 
+PPT Link:
 Demo Video Link: 
-GitHub Repository: 
+GitHub Repository: https://github.com/dahiya001rohit/PLENTICA
+Demo-user:rohit@mail.com
+Password:Ron@2006
 
 12. Hackathon Deliverables Summary
 Functional prototype
