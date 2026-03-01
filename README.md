@@ -1,11 +1,11 @@
 # PLENTICA
 Smart Farm Resource Optimization System for Data-Driven Agriculture
 1. Demo & Video
-PPT Link:https://www.canva.com/design/DAHCrvQvdPc/_Na8ZuH9FHujv-bf2Us88Q/edit?utm_content=DAHCrvQvdPc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-Demo Video Link: 
-GitHub Repository: https://github.com/dahiya001rohit/PLENTICA
-Demo-user:rohit@mail.com
-Password:Ron@2006
+~PPT Link:https://www.canva.com/design/DAHCrvQvdPc/_Na8ZuH9FHujv-bf2Us88Q/edit?utm_content=DAHCrvQvdPc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+~Demo Video Link: https://drive.google.com/drive/folders/1-i4JUPDy0a2f8-96nyMhN2YxQgNOqL7T?usp=sharing
+~GitHub Repository: https://github.com/dahiya001rohit/PLENTICA
+~Demo-user:rohit@mail.com
+~Password:Ron@2006
 
 2. Problem Statement
 ~Farm Resource Allocation and Optimization
