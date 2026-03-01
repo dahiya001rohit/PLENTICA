@@ -6,6 +6,7 @@ import LandingPage from './Components/LandingPage'
 import Login from './Components/Login'
 import SignUp from './Components/SignUp'
 import Footer from './Components/Footer'
+import HowItWorks from './Components/HowItWorks'
 import useAuth from './hooks/useAuth'
 import { useEffect } from 'react'
 import api from './utils/api'
@@ -45,6 +46,7 @@ const App = () => {
         <Route path='/dashboard' element={<DashBoard isLogged = {isLogged} user={user} />} />
         <Route path='/login' element={<Login isLogged = {isLogged} user={user}/>} />
         <Route path='/signup' element={<SignUp isLogged = {isLogged} user={user}/>} />
+        <Route path='/about' element={<HowItWorks />} />
       </Routes>
       <Footer />
     </div>
